@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Call Riley (Vapi)</title>
+    <script
+      src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"
+      defer
+      async
+    ></script>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 40px; }
+      code { background: #f4f4f4; padding: 2px 6px; border-radius: 6px; }
+    </style>
+  </head>
+  <body>
+    <h1>Call Riley</h1>
+    <p>This page loads the Vapi web widget for assistant <code>717e2342-1dfe-40ff-80d0-13c9102cf8e6</code>.</p>
+
+    <script>
+      window.addEventListener("load", () => {
+        window.vapiSDK.run({
+          apiKey: "9f7e0d8a-4327-41db-abf3-5e5fd2d63cd7",
+          assistant: "717e2342-1dfe-40ff-80d0-13c9102cf8e6",
+          config: {
+            position: "bottom-right",
+            // Optional theming:
+            // theme: { primary: "#111827", secondary: "#ffffff" },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
